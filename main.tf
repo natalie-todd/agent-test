@@ -16,6 +16,10 @@ terraform {
       source = "hashicorp/random"
       version = "3.4.3"
     }
+    enos = {
+      source = "hashicorp-forge/enos"
+      version = "0.4.1"
+    }
   }
 }
 
