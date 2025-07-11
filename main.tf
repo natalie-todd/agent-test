@@ -38,7 +38,7 @@ resource "random_pet" "always_new" {
   keepers = {
     uuid = uuid()
   }
-  length = 6
+  length = 5
 }
 
 output "username" {
